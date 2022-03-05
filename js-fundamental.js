@@ -418,12 +418,15 @@ for (let i = 1; i <= 10 ; i++) {
     case 3:
         console.log( 'Too small' );
         break;
+
     case 4:
         console.log( 'Exactly!' );
         break;
+
     case 5:
         console.log( 'Too big' );
         break;
+
     default:
         console.log( "I don't know such values" );
 }
@@ -433,10 +436,16 @@ num = 4;
 switch (num) {
     case 3:
         console.log( 'Too small' );
+        break;
+
     case 4:
         console.log( 'Exactly!' );
+        break;
+
     case 5:
         console.log( 'Too big' );
+        break;
+
     default:
         console.log( "I don't know such values" );
 }
@@ -447,8 +456,10 @@ switch (num) {
     case 3:
         console.log( 'Too small' );
         break; 
+        
     case 4:
         console.log( 'Exactly!' );
+        
     case 5:
         console.log( 'Too big' );
         break; 
@@ -462,10 +473,13 @@ num = 100;
 switch (num) {
     case 3:
         console.log( 'Too small' );
+
     case 4:
         console.log( 'Exactly!' );
+
     case 5:
         console.log( 'Too big' );
+
     default:
         console.log( "I don't know such values" );
 }
