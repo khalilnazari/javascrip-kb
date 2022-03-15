@@ -92,7 +92,7 @@ number = number.map((value, index, array) => {
      return value; 
 }).join("")
 
-const.log(number); //2-4-67234-4987 
+console.log(number); //2-4-67234-4987 
 
 
 
