@@ -111,3 +111,25 @@ newFunc();
  * Error handling is simpler.
  * Debugging is easier.
 */
+
+
+// promise 
+let promise = new Promise((resolve, reject) => {
+    resolve("Success")
+
+    if(false) {
+        reject("Error")
+    }
+})
+
+// async await function 
+async function aysncFunc() {
+    try {
+        let reuslt = await promise;
+        console.log(result)
+    } catch (error) {
+        throw error
+    }
+}
+
+aysncFunc() // print: Success
