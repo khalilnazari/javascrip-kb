@@ -120,6 +120,11 @@ setDate.setMinutes(44);
 setDate.setSeconds(31); 
 
 // setMilliseconds(); 
-setDate.setMilliseconds();
+setDate.setMilliseconds(900);
 
 // setTime(); 
+
+// setInterval(() => {
+//     let date = new Date();
+//    console.log(date.toString()) 
+// }, 1000);
