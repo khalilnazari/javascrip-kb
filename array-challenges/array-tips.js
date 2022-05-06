@@ -19,12 +19,12 @@ console.log(fruits); // returns ['potato', 'tomato', 'orange', 'watermelon', 'ap
 
 // 3. Map array without .map()
 let friends = [
-    { name: 'John', age: 22 },
-    { name: 'Peter', age: 23 },
-    { name: 'Mark', age: 24 },
-    { name: 'Maria', age: 22 },
-    { name: 'Monica', age: 21 },
-    { name: 'Martha', age: 19 },
+    { name: 'John', age: 22 }, 
+    { name: 'Peter', age: 23 }, 
+    { name: 'Mark', age: 24 }, 
+    { name: 'Maria', age: 22 }, 
+    { name: 'Monica', age: 21 }, 
+    { name: 'Martha', age: 19 }, 
 ]
 
 let friendsNames = Array.from(friends, ({name}) => name);
