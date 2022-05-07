@@ -249,3 +249,27 @@ let userAddress = user?.address;
 // check for street 
 userAddress = user.address?.street;  
 console.log(userAddress) // undefined
+
+
+
+
+// How to Check if a Property Exists in a JavaScript Object
+// lets consider developer object. 
+const developer = {
+    name: "Jessica Wilkins",
+    country: "United States",
+    isEmployed: true
+};
+
+// 1. using .hasOwnProperty()
+developer.hasOwnProperty("isEmployed"); // true 
+developer.hasOwnProperty("somethingElse"); // false
+
+// 2. using in operator
+"country" in developer; // true
+"somethingElse" in developer; // false
+
+// 3. using undefined  
+developer.name !== undefined // true 
+developer.somethingElse !== undefined // false  
+
